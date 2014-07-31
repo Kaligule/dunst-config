@@ -194,20 +194,21 @@
 #    summary = "foobar"
 #    format = ""
 
-#[signed_on]
-#    appname = Pidgin
-#    summary = "*signed on*"
-#    urgency = low
-#
-#[signed_off]
-#    appname = Pidgin
-#    summary = *signed off*
-#    urgency = low
-#
-#[says]
-#    appname = Pidgin
-#    summary = *says*
-#    urgency = critical
+[signed_on]
+    appname = Pidgin
+    summary = "*signed on*"
+    urgency = low
+
+[signed_off]
+    appname = Pidgin
+    summary = *signed off*
+    urgency = low
+
+[says]
+    appname = Pidgin
+    summary = *says*
+    urgency = critical
+    format  = "%s "%b""
 #
 #[twitter]
 #    appname = Pidgin

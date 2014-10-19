@@ -209,7 +209,12 @@
     summary = *says*
     urgency = critical
     format  = "%s "%b""
-#
+
+[music]
+    appname = Amarok
+    summary = "Now playing"
+    urgency = low
+
 #[twitter]
 #    appname = Pidgin
 #    summary = *twitter.com*
